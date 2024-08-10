@@ -1,0 +1,45 @@
+/* styles/Blog.module.css */
+.container {
+    padding: 0 2rem;
+  }
+  
+  .main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    margin: 1rem 0;
+  }
+  
+  .link {
+    font-size: 1.5rem;
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

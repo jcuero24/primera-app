@@ -1,0 +1,50 @@
+/* src/app/styles/Home.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 2rem;
+  }
+  
+  .header {
+    background-color: #282c34;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .characterList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .characterItem {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .characterImage {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .footer {
+    background: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

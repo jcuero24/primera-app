@@ -1,12 +1,20 @@
-import Image from "next/image";
+ // blog/[id]/layout.jsx
+import styles from './layout.module.css'; 
 
-export default function Layout({children}){
-    return(
-        <>
-            <Image src="/img/imagen1.jpg" width={150} height={150}/>
-            <main>
-                {children}
-            </main>
-        </>
-    )
-}
+const Layout = ({ children }) => {
+  return (
+    <div className={styles.container}>
+      <header className={styles.header}>
+        <h1>Characters</h1>
+      </header>
+      <main className={styles.main}>
+        {children}
+      </main>
+      <footer className={styles.footer}>
+        <p>© 2024 Our Website. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+};
+
+export default Layout;
